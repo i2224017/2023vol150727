@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>i2224017-aien</title>
+    <!-- <link rel="stylesheet" href="main.css"> -->
+    <link rel="stylesheet" href="reset.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="stylesheet" href="menu.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ysabeau+SC&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Ysabeau+SC&family=Zen+Kaku+Gothic+New&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+    
+    <style>
+        body {
+            background: #ffffff;
+            font-family: 'Ysabeau SC', sans-serif;
+        }
+
+
+        .wrap {
+            /* max-width: 600px; */
+            margin: auto;
+            background: #ffffff;
+            position:relative;
+        }
+
+        .card {
+            flex-basis: 33.33%;
+            margin: 0% 20% 0% 20%;
+            border: 0px #000000 solid;
+            position:relative;
+            
+        }
+
+        .card-wrap {
+            display: flex;
+            flex-wrap: wrap;
+        }
+
+        .wf {
+            display: flex;
+            justify-content: center;
+        }
+
+        .list {
+            list-style: none;
+        }
+
+        .list:nth-child(2){
+            margin: 0 20px;
+        }
+
+        .text {
+            margin: 4%;
+            line-height: 1.3;
+            font-size: 16px;
+            text-align: center;
+            font-family: 'Ysabeau SC', sans-serif;
+            font-family: 'Zen Kaku Gothic New', sans-serif;
+        } 
+
+        .txt {
+            margin: 2%;
+            line-height: 1.3;
+            font-size: 14px;
+            text-align: center;
+            font-family: 'Ysabeau SC', sans-serif;
+            font-family: 'Zen Kaku Gothic New', sans-serif;
+        } 
+
+        
+        .h-large {
+            text-align: center;
+            margin: 80px auto 8px;
+            font-size: 32px;
+        }
+
+        .h-small {
+            text-align: center;
+            margin: 0px auto 40px;
+            font-size: 24px;
+        }
+
+        @media screen and (max-width:480px) {
+
+            body {
+                background: #ffffff;
+            }
+
+            .card {
+                flex-basis: 100%;
+                margin: 0% 10% 0% 10%;
+            }
+            .text {
+            margin: 4%;
+            line-height: 1.3;
+            font-size: 12px;
+            text-align: center;
+            font-family: 'Ysabeau SC', sans-serif;
+            font-family: 'Zen Kaku Gothic New', sans-serif;
+        } 
+
+        .txt {
+            margin: 2%;
+            line-height: 1.3;
+            font-size: 10px;
+            text-align: center;
+            font-family: 'Ysabeau SC', sans-serif;
+            font-family: 'Zen Kaku Gothic New', sans-serif;
+        } 
+        .wf{
+            display: inline;
+            justify-content: center;
+        }
+        .list {
+            list-style: none;
+            margin: 0 10% 0 10%;
+        }
+            .h-large {
+                margin: 80px auto 8px;
+                font-size: 24px;
+            }
+            .h-small {
+            margin: 0px auto 40px;
+            font-size: 16px;
+        }
+        }
+    </style>
+
+</head>
+
+<body>
+    <header class="header">
+        <div class="navtext-container">
+          <div class="navtext">MENU</div>
+        </div>
+        <input type="checkbox" class="menu-btn" id="menu-btn">
+        <label for="menu-btn" class="menu-icon"><span class="navicon"></span></label>
+    
+        <ul class="menu">
+        <li class="top"><a href="index.html">home</a></li>
+        </ul>
+    
+</header>
+
+<main>
+    <div class="wrap">
+        <h1 class="h-large">graphic design</h1>
+        <h2 class="h-small">shisha bar-aien- poster</h2>
+    </div>
+    <div class="text">
+        <p>2023.4.20制作<br>
+        デザイン性を重視して制作した-愛煙-名古屋店の架空ポスター２種<br>
+        ・店内のライティングから着想を得た色選び<br>
+        ・煙をイメージした背景デザイン
+    </p>
+    </div>
+
+<div class="card">
+    <div class="txt">
+        <p>▾イメージ図</p>
+    </div> 
+    <img src="aien.jpg" alt="aien">
+</div>
+
+<ul class="wf">
+    
+    <li class="list"><div class="txt">
+        <p>▾縦型</p>
+    </div> <img src="aien01.jpg" width="400"  alt="aien"></li>
+  
+    <li class="list">  <div class="txt">
+        <p>▾横型</p>
+    </div> <img src="aien02.jpg" width="600" alt="aien"></li>
+</ul>
+
+
+
+</main>
+
+</body>
+
+</html>

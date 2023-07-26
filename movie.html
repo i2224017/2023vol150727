@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>i2224017-movie</title>
+    <!-- <link rel="stylesheet" href="main.css"> -->
+    <link rel="stylesheet" href="reset.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="stylesheet" href="menu.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ysabeau+SC&family=Zen+Kaku+Gothic+New&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Ysabeau+SC&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+    
+    <style>
+        body {
+            background: #ffffff;
+            font-family: 'Ysabeau SC', sans-serif;
+        }
+
+
+        .wrap {
+            /* max-width: 600px; */
+            margin: auto;
+            background: #ffffff;
+            position:relative;
+        }
+        .text {
+            margin: 4%;
+            line-height: 1.3;
+            font-size: 16px;
+            text-align: center;
+            font-family: 'Ysabeau SC', sans-serif;
+            font-family: 'Zen Kaku Gothic New', sans-serif;
+        } 
+
+        .txt {
+            margin: 2%;
+            line-height: 1.3;
+            font-size: 14px;
+            text-align: center;
+            font-family: 'Ysabeau SC', sans-serif;
+            font-family: 'Zen Kaku Gothic New', sans-serif;
+        } 
+        .movie {
+       text-align: center;
+       margin: 0 20% 0 20%;
+        }
+
+        .wf {
+            display: flex;
+            justify-content: center;
+            margin-right: 2%;
+            margin-bottom: 10%;
+        }
+
+        .list {
+            list-style: none;
+            margin: 0 2% 0 2%;
+        }
+
+        /* .list:nth-child(2){
+            margin: 0 20px;
+        } */
+        .h-large {
+            text-align: center;
+            margin: 80px auto 8px;
+            font-size: 32px;
+        }
+
+        .h-small {
+            text-align: center;
+            margin: 0px auto 40px;
+            font-size: 24px;
+        }
+
+        @media screen and (max-width:480px) {
+
+            body {
+                background: #ffffff;
+            }
+
+            .card {
+                flex-basis: 100%;
+            }
+            .text {
+            margin: 4%;
+            line-height: 1.3;
+            font-size: 12px;
+            text-align: center;
+            font-family: 'Ysabeau SC', sans-serif;
+            font-family: 'Zen Kaku Gothic New', sans-serif;
+        } 
+        .movie {
+       text-align: center;
+       margin: 0 5% 0 5%;
+        }
+        .txt {
+            margin: 2%;
+            line-height: 1.3;
+            font-size: 10px;
+            text-align: center;
+            font-family: 'Ysabeau SC', sans-serif;
+            font-family: 'Zen Kaku Gothic New', sans-serif;
+        } 
+        .wf{
+            display: inline;
+            justify-content: center;
+        }
+        .list {
+            list-style: none;
+            margin: 0 10% 0 10%;
+        }
+            .h-large {
+                margin: 80px auto 8px;
+                font-size: 24px;
+            }
+            .h-small {
+            margin: 0px auto 40px;
+            font-size: 16px;
+        }
+        }
+    </style>
+
+</head>
+
+<body>
+    <header class="header">
+        <div class="navtext-container">
+          <div class="navtext">MENU</div>
+        </div>
+        <input type="checkbox" class="menu-btn" id="menu-btn">
+        <label for="menu-btn" class="menu-icon"><span class="navicon"></span></label>
+    
+        <ul class="menu">
+        <li class="top"><a href="index.html">home</a></li>
+        </ul>
+    
+</header>
+
+<main>
+    <div class="wrap">
+        <h1 class="h-large">movie</h1>
+        <h2 class="h-small">paper mapping</h2>
+        <div class="text">
+            <p>2023.7.16制作<br>
+            円という図形が様々な物に変化する派生的要素を楽しむ作品<br>
+            ・見易さを重視したモノクロかつ単純なデザイン<br>
+            ・落ち着いた雰囲気の映像に合わせた控えめな効果音
+        </p>
+        </div>
+    </div>
+    <div class="txt">
+        <p>▾作品映像</p>
+    </div>
+    <div class="movie">
+    <video controls src="paper.mp4">作品映像</video>
+  </div>
+
+  <ul class="wf">
+    
+    <li class="list"><div class="txt">
+        <p>▾つきとうさぎ</p>
+    </div> <img src="rabbit.jpg" width="300"  alt="moon"></li>
+  
+    <li class="list">  <div class="txt">
+        <p>▾とけい</p>
+    </div> <img src="clock.jpg" width="300" alt="renecoma"></li>
+
+    <li class="list">  <div class="txt">
+        <p>▾せんすいかん</p>
+    </div> <img src="fish.jpg" width="300" alt="renecoma"></li>
+</ul>
+
+
+</main>
+
+</body>
+
+</html>

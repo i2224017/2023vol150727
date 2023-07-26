@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>i2224017-portfolio</title>
+    <!-- <link rel="stylesheet" href="main.css"> -->
+    <link rel="stylesheet" href="reset.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="stylesheet" href="menu.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ysabeau+SC&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+
+    <style>
+        body {
+            background: #ffffff;
+            font-family: 'Ysabeau SC', sans-serif;
+        }
+
+        /* .menu {
+            display: flex;
+            list-style: none;
+            flex-wrap: wrap;
+            max-width: 400px;
+            margin: auto;
+        }
+
+        .menu li {
+            flex-basis: 20%;
+        } */
+
+        .wrap {
+            /* max-width: 600px; */
+            margin: auto;
+            background: #ffffff;
+            position:relative;
+        }
+
+        .card {
+            flex-basis: 33.33%;
+            margin: 0% 0% 0% 0%;
+            border: 0px #000000 solid;
+            position:relative;
+            
+        }
+
+        .card-wrap {
+            display: flex;
+            flex-wrap: wrap;
+        }
+
+        /* .txt {
+            margin: 4%;
+            line-height: 1.3;
+            font-size: 14px;
+            text-align: center;
+        } */
+
+        .hover {
+            position: relative;
+             /* width: 320px;
+            height:213px; */
+        }
+        .hover .hover-img {
+             margin: 0;
+            padding: 0;
+        }
+        .hover-img img {
+              width: 100%;
+             height: 100%;
+        }
+        .hover .hover-text {
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            top: 0;
+            left: 0;
+            color: #fff;
+            background-color: rgba(0,0,0,0.65);
+            opacity: 0;
+            transition: .3s ease-in-out;
+            text-align: center;
+            padding: 20px;  
+        
+        }
+        .hover .hover-text .text1 {
+            font-size: 20px;
+            padding: 10px 20px;
+        }
+        .hover .hover-text .text2 {
+            font-size: 16px;
+            padding: 0 20px;
+        }
+
+        .hover:hover .hover-text {
+            opacity: 1;
+        }
+
+        .h-large {
+            text-align: center;
+            margin: 80px auto 8px;
+            font-size: 32px;
+        }
+
+        .h-small {
+            text-align: center;
+            margin: 0px auto 40px;
+            font-size: 24px;
+        }
+
+        @media screen and (max-width:480px) {
+
+            body {
+                background: #ffffff;
+            }
+
+            .card {
+                flex-basis: 100%;
+            }
+            .text {
+            margin: 4%;
+            line-height: 1.3;
+            font-size: 12px;
+            text-align: center;
+            font-family: 'Ysabeau SC', sans-serif;
+            font-family: 'Zen Kaku Gothic New', sans-serif;
+        } 
+
+        .txt {
+            margin: 2%;
+            line-height: 1.3;
+            font-size: 10px;
+            text-align: center;
+            font-family: 'Ysabeau SC', sans-serif;
+            font-family: 'Zen Kaku Gothic New', sans-serif;
+        } 
+            .h-large {
+                margin: 80px auto 8px;
+                font-size: 24px;
+            }
+            .h-small {
+            margin: 0px auto 40px;
+            font-size: 16px;
+        }
+        }
+    </style>
+
+</head>
+
+<body>
+    <header class="header">
+        <div class="navtext-container">
+          <div class="navtext">MENU</div>
+        </div>
+        <input type="checkbox" class="menu-btn" id="menu-btn">
+        <label for="menu-btn" class="menu-icon"><span class="navicon"></span></label>
+    
+        <ul class="menu">
+        <li class="top"><a href="#home">home</a></li>
+          <!-- <li><a href="game.html">game</a></li>
+          <li><a href="illustration.html">illustration</a></li> -->
+       
+        </ul>
+    
+      </header>
+    <!-- <header>
+        <div class="wrap">
+            <nav>
+                <ul class="menu">
+                    <li><a href="">menu1</a></li>
+                    <li><a href="">menu2</a></li>
+                    <li><a href="">menu3</a></li>
+                    <li><a href="">menu4</a></li>
+                    <li><a href="">menu5</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header> -->
+    <main>
+        <div class="wrap">
+            <h1 class="h-large">Natsuko Kibe</h1>
+            <h2 class="h-small">portfolio</h2>
+            <div class="card-wrap">
+                <div class="card">
+                    <a href="web.html">
+                    <section class="hover">
+                    <div class="hover-img">
+                    <img src="websamune.jpg" alt="web">
+                    </div>
+                    <!-- <div class="txt">
+                        <p>web design</p>
+                    </div> -->
+                    <div class="hover-text">
+                        <p class="text1">web design</p>
+                         <p class="text2">self-introduction site</p>
+                          </div>
+                        </section>
+                    </a>
+                </div>
+
+                <div class="card">
+                    <a href="aien.html">
+                    <section class="hover">
+                    <div class="hover-img">
+                    <img src="aiensamune.jpg" alt="aien">
+                    </div>
+                    <!-- <div class="txt">
+                        <p>graphic design</p>
+                    </div> -->
+                    <div class="hover-text">
+                        <p class="text1">graphic design</p>
+                         <p class="text2">shishabar-aien- poster</p>
+                          </div>
+                        </section>
+                    </a>
+                </div>
+
+                <div class="card">
+                    <a href="figma.html">
+                    <section class="hover">
+                    <div class="hover-img">
+                    <img src="figmasamune.jpg" alt="figma">
+                    <!-- <div class="txt">
+                        <p>UI design</p>
+                    </div> -->
+                    <div class="hover-text">
+                        <p class="text1">ui design</p>
+                         <p class="text2">mobile application</p>
+                          </div>
+                        </section>
+                    </a>
+                </div>
+
+                <div class="card">
+                    <a href="necoma.html">
+                    <section class="hover">
+                        <div class="hover-img">
+                    <img src="renecomasamune.jpg" alt="necoma">
+                    <!-- <div class="txt">
+                        <p>graphic design</p>
+                    </div> -->
+                    <div class="hover-text">
+                        <p class="text1">graphic design</p>
+                         <p class="text2">protective cat cafe-necoma- poster</p>
+                          </div>
+                        </section>
+                    </a>
+                </div>
+
+                <div class="card">
+                    <a href="illustration.html">
+                    <section class="hover">
+                        <div class="hover-img">
+                    <img src="tarasamune.jpg" alt="tara">
+                    <!-- <div class="txt">
+                        <p>illustration</p>
+                    </div> -->
+                    <div class="hover-text">
+                        <p class="text1">illustration</p>
+                         <p class="text2">digital image</p>
+                          </div>
+                        </section>
+                    </a>
+                </div>
+
+                <div class="card">
+                    <a href="movie.html">
+                    <section class="hover">
+                        <div class="hover-img">
+                    <img src="moviesamune.jpg" alt="movie">
+                    <!-- <div class="txt">
+                        <p>paper mapping</p>
+                    </div> -->
+                    <div class="hover-text">
+                        <p class="text1">movie</p>
+                         <p class="text2">paper mapping</p>
+                          </div>
+                        </section>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </main>
+    
+</body>
+
+</html>
